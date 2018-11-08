@@ -17,7 +17,6 @@ import java.util.Calendar;
 
 @SuppressWarnings("unused")
 public class Xls_Reader {
-// public static String filename = System.getProperty("user.dir")+"\\src\\\testframe1\\TestData.xlsx";
  public  String path;
  public  FileInputStream fis = null;
  public  FileOutputStream fileOut =null;

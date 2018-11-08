@@ -151,8 +151,6 @@ public String takeScreenShot() throws IOException{
 		Date dateobj = new Date();
 		String dateformat= df.format(dateobj);
 		String path = System.getProperty("user.dir")+File.separator+"screenshot"+File.separator+dateformat+".png";
-    	//File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    	//FileUtils.copyFile(scrFile, new File(path));
     	return path;
     }
 	public void insertStep(String stepName, String details, String status, String exception,boolean isScreenShot) throws IOException{
